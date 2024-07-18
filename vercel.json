@@ -1,14 +1,14 @@
 {
     "version": 2,
     "functions": {
-      "api/hello.php": {
+      "api/index.php": {
        "runtime": "vercel-php@0.6.0"
       }
     },
     "routes": [
       {
         "src": "/(.*)", 
-        "dest": "/api/hello.php" 
+        "dest": "/api/index.php" 
       }
     ]
   }
